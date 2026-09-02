@@ -1,0 +1,39 @@
+{
+  "name": "genpark-fullstack-component-ast-patch-generator-skill",
+  "version": "1.0.0",
+  "description": "GenPark AI Agent Skill - Fullstack UI component AST patch generator synthesizing responsive components with clean TypeScript and Tailwind tokens.",
+  "homepage": "https://genpark.ai/mcp",
+  "author": "genpark",
+  "category": "code-generation",
+  "tags": [
+    "component-generator",
+    "v0-style",
+    "lovable-ai",
+    "ui-builder",
+    "tailwind-react"
+  ],
+  "inputs": {
+    "user_natural_prompt": {
+      "type": "string"
+    },
+    "target_framework": {
+      "type": "string"
+    }
+  },
+  "outputs": {
+    "component_patch_id": {
+      "type": "string"
+    },
+    "syntax_ast_valid": {
+      "type": "boolean"
+    },
+    "live_preview_iframe_url": {
+      "type": "string"
+    },
+    "component_source_bundle_url": {
+      "type": "string"
+    }
+  },
+  "entrypoint": "client.py",
+  "example": "example_usage.py"
+}
